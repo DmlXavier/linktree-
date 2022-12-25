@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Linktree</title>
+
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="./assets/link-outline.svg" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="page">
+		<!-- Profile of the professional or company -->
+		<header>
+			<div class="profile">
+				<img id="profile-picture" src="./assets/profile-lightmode.jpg" alt="Profile picture">
+
+				<p>@name</p>
+			</div>
+		</header>
+
+		<!-- Dark and light mode switch -->
+		<div class="toggle" onclick="toggleMode()">
+			<button id="toggle-button"></button>
+
+			<span></span>
+		</div>
+
+		<!-- Main links -->
+		<main>
+			<div class="links">
+				<ul>
+					<li class="link">
+						<a target="_blank" href="first-link.com">link 01</a>
+					</li>
+
+					<li class="link">
+						<a target="_blank" href="first-link.com">link 02</a>
+					</li>
+
+					<li class="link">
+						<a target="_blank" href="first-link.com">link 03</a>
+					</li>
+
+					<li class="link">
+						<a target="_blank" href="first-link.com">link 04</a>
+					</li>
+				</ul>
+			</div>
+		</main>
+
+		<!-- Social media links -->
+		<div class="socials">
+			<div class="social-link">
+				<a target="_blank" href="https://www.linkedin.com">
+					<ion-icon class="icon" name="logo-linkedin"></ion-icon>
+				</a>
+			</div>
+
+			<div class="social-link">
+				<a target="_blank" href="https://www.facebook.com">
+					<ion-icon class="icon" name="logo-facebook"></ion-icon>
+				</a>
+			</div>
+
+			<div class="social-link">
+				<a target="_blank" href="https://www.instagram.com">
+					<ion-icon class="icon" name="logo-instagram"></ion-icon>
+				</a>
+			</div>
+
+			<div class="social-link">
+				<a target="_blank" href="https://github.com/">
+					<ion-icon class="icon" name="logo-github"></ion-icon>
+				</a>
+			</div>
+		</div>
+
+		<!-- Extra information -->
+		<footer>
+			<p>Thank you for visiting my page!!</p>
+		</footer>
+	</div>
+	<script src="./script.js"></script>
+
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
