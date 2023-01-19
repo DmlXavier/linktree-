@@ -1,6 +1,6 @@
-<h1 align = center> Link tree</h1>
+<h1 align = center>Link tree</h1>
 
-<p align = center> This is a project for a link tree. </p>
+<p align = center>This is a project for a link tree.</p>
 
 <p align = center>
 	<a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
